@@ -19,4 +19,6 @@ jobs:
           server: ok.medkorse.in
           username: devv@ok.medkorse.in
           password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftp
+          port: 21
           server-dir: /public_html/wp-content/plugins/return-guard-wc/
