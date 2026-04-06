@@ -16,9 +16,9 @@ jobs:
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ok.medkorse.in
-          username: devv
+          server: ftp.dharanifreelancer.digital   # ✅ FIXED
+          username: devv@ok.medkorse.in           # ✅ FIXED
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftp
           port: 21
-          server-dir: /public_html/wp-content/plugins/return-guard-wc/
+          server-dir: /public_html/wp-content/plugins/
