@@ -1,0 +1,22 @@
+name: Deploy Plugin
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  ftp-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ok.medkorse.in
+          username: devv@ok.medkorse.in
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: /public_html/wp-content/plugins/return-guard-wc/
