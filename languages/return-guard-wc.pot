@@ -1,0 +1,335 @@
+# Copyright (C) 2024 Return Guard
+# This file is distributed under the same license as the Return Guard for WooCommerce plugin.
+# Return Guard, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Return Guard for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://example.com/support\n"
+"POT-Creation-Date: 2024-01-01 00:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-01-01 00:00:00+00:00\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Return Guard POT Generator 1.0\n"
+"X-Domain: return-guard-wc\n"
+
+#. Plugin Name of the plugin
+msgid "Return Guard for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://example.com/return-guard-wc"
+msgstr ""
+
+#. Description of the plugin
+msgid "Detects and manages return/refund abuse in WooCommerce. Labels customers as Safe, Suspicious, or Abuser based on configurable thresholds."
+msgstr ""
+
+#. Author of the plugin
+msgid "Return Guard"
+msgstr ""
+
+#: includes/class-rg-activator.php
+msgid "Return Guard for WooCommerce requires PHP 7.4 or higher. Your site is running PHP %s."
+msgstr ""
+
+#: includes/class-rg-activator.php
+msgid "Return Guard for WooCommerce requires WooCommerce 6.0 or higher to be installed and active."
+msgstr ""
+
+#: includes/class-rg-activator.php
+msgid "Return Guard for WooCommerce requires WooCommerce 6.0 or higher. Your site is running WooCommerce %s."
+msgstr ""
+
+#: includes/class-rg-actions.php
+msgid "You do not have permission to perform this action."
+msgstr ""
+
+#: includes/class-rg-actions.php
+msgid "Invalid customer ID."
+msgstr ""
+
+#: includes/class-rg-actions.php
+msgid "No risk record found for this customer."
+msgstr ""
+
+#: includes/class-rg-actions.php
+msgid "Customer has been blocked from Cash on Delivery."
+msgstr ""
+
+#: includes/class-rg-actions.php
+msgid "Customer has been manually marked as risky."
+msgstr ""
+
+#: includes/class-rg-actions.php
+msgid "Customer has been allowlisted. All flags cleared."
+msgstr ""
+
+#: includes/class-rg-actions.php
+#: admin/class-rg-dashboard.php
+#: admin/class-rg-order-metabox.php
+msgid "Safe"
+msgstr ""
+
+#: includes/class-rg-actions.php
+#: admin/class-rg-dashboard.php
+#: admin/class-rg-order-metabox.php
+msgid "Suspicious"
+msgstr ""
+
+#: includes/class-rg-actions.php
+#: admin/class-rg-dashboard.php
+#: admin/class-rg-order-metabox.php
+msgid "Abuser"
+msgstr ""
+
+#: admin/class-rg-admin.php
+msgid "Return Guard"
+msgstr ""
+
+#: admin/class-rg-admin.php
+msgid "Return Guard — Dashboard"
+msgstr ""
+
+#: admin/class-rg-admin.php
+msgid "Dashboard"
+msgstr ""
+
+#: admin/class-rg-admin.php
+msgid "Return Guard — Settings"
+msgstr ""
+
+#: admin/class-rg-admin.php
+msgid "Settings"
+msgstr ""
+
+#: admin/class-rg-admin.php
+msgid "Block this customer from paying with Cash on Delivery?"
+msgstr ""
+
+#: admin/class-rg-admin.php
+msgid "Manually mark this customer as risky (Suspicious)?"
+msgstr ""
+
+#: admin/class-rg-admin.php
+msgid "Remove all flags from this customer and mark them as Safe?"
+msgstr ""
+
+#: admin/class-rg-admin.php
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: admin/class-rg-dashboard.php
+msgid "Return Guard — Dashboard"
+msgstr ""
+
+#: admin/class-rg-dashboard.php
+msgid "Total Revenue Lost to Refunds"
+msgstr ""
+
+#: admin/class-rg-dashboard.php
+msgid "Top Abusers"
+msgstr ""
+
+#: admin/class-rg-dashboard.php
+msgid "🎉 No abusers detected yet."
+msgstr ""
+
+#: admin/class-rg-dashboard.php
+msgid "Customer"
+msgstr ""
+
+#: admin/class-rg-dashboard.php
+msgid "Refunds"
+msgstr ""
+
+#: admin/class-rg-dashboard.php
+msgid "Total Lost"
+msgstr ""
+
+#: admin/class-rg-dashboard.php
+msgid "Label"
+msgstr ""
+
+#: admin/class-rg-dashboard.php
+msgid "Recent Risky Orders (Last 30 Days)"
+msgstr ""
+
+#: admin/class-rg-dashboard.php
+msgid "🎉 No risky orders in the last 30 days."
+msgstr ""
+
+#: admin/class-rg-dashboard.php
+msgid "Order"
+msgstr ""
+
+#: admin/class-rg-dashboard.php
+msgid "Date"
+msgstr ""
+
+#: admin/class-rg-dashboard.php
+msgid "All Flagged Customers"
+msgstr ""
+
+#: admin/class-rg-dashboard.php
+msgid "🎉 Great news — no return abusers detected yet."
+msgstr ""
+
+#: admin/class-rg-dashboard.php
+msgid "# Refunds"
+msgstr ""
+
+#: admin/class-rg-dashboard.php
+msgid "Total Refunded"
+msgstr ""
+
+#: admin/class-rg-dashboard.php
+msgid "Return Rate"
+msgstr ""
+
+#: admin/class-rg-dashboard.php
+msgid "Actions"
+msgstr ""
+
+#: admin/class-rg-dashboard.php
+msgid "COD Blocked"
+msgstr ""
+
+#: admin/class-rg-dashboard.php
+msgid "Block COD"
+msgstr ""
+
+#: admin/class-rg-dashboard.php
+msgid "Marked Risky"
+msgstr ""
+
+#: admin/class-rg-dashboard.php
+msgid "Mark Risky"
+msgstr ""
+
+#: admin/class-rg-dashboard.php
+msgid "✓ Allowlisted"
+msgstr ""
+
+#: admin/class-rg-dashboard.php
+msgid "Allowlist"
+msgstr ""
+
+#: admin/class-rg-dashboard.php
+msgid "Guest"
+msgstr ""
+
+#: admin/class-rg-settings.php
+msgid "Abuser Thresholds"
+msgstr ""
+
+#: admin/class-rg-settings.php
+msgid "A customer whose return rate meets or exceeds this percentage AND has enough refunds will be labeled <strong>Abuser</strong>."
+msgstr ""
+
+#: admin/class-rg-settings.php
+msgid "Abuser Return Rate (%)"
+msgstr ""
+
+#: admin/class-rg-settings.php
+msgid "Abuser Refund Count"
+msgstr ""
+
+#: admin/class-rg-settings.php
+msgid "Minimum number of refunds a customer must have, combined with the rate threshold, to be labeled <strong>Abuser</strong>."
+msgstr ""
+
+#: admin/class-rg-settings.php
+msgid "Suspicious Thresholds"
+msgstr ""
+
+#: admin/class-rg-settings.php
+msgid "Suspicious Return Rate (%)"
+msgstr ""
+
+#: admin/class-rg-settings.php
+msgid "Suspicious Refund Count"
+msgstr ""
+
+#: admin/class-rg-settings.php
+msgid "Suspicious Total Value ($)"
+msgstr ""
+
+#: admin/class-rg-settings.php
+msgid "COD Blocking"
+msgstr ""
+
+#: admin/class-rg-settings.php
+msgid "Enable COD Blocking"
+msgstr ""
+
+#: admin/class-rg-settings.php
+msgid "Enabled"
+msgstr ""
+
+#: admin/class-rg-settings.php
+msgid "Return Guard — Settings"
+msgstr ""
+
+#: admin/class-rg-settings.php
+msgid "📖 How Thresholds Work"
+msgstr ""
+
+#: admin/class-rg-settings.php
+msgid "Return Guard uses a simple rule engine to label each customer. Rules run in order and the first match wins:"
+msgstr ""
+
+#: admin/class-rg-settings.php
+msgid "Save Settings"
+msgstr ""
+
+#: admin/class-rg-settings.php
+msgid "Reset to Defaults"
+msgstr ""
+
+#: admin/class-rg-settings.php
+msgid "This will restore all threshold settings to their original default values. Your customer risk data will not be affected."
+msgstr ""
+
+#: admin/class-rg-settings.php
+msgid "Permission denied."
+msgstr ""
+
+#: admin/class-rg-settings.php
+msgid "You do not have permission to access this page."
+msgstr ""
+
+#: admin/class-rg-order-metabox.php
+msgid "Return Guard — Customer Risk"
+msgstr ""
+
+#: admin/class-rg-order-metabox.php
+msgid "Could not load order details."
+msgstr ""
+
+#: admin/class-rg-order-metabox.php
+msgid "No refund history — this customer appears safe."
+msgstr ""
+
+#: admin/class-rg-order-metabox.php
+msgid "refunds"
+msgstr ""
+
+#: admin/class-rg-order-metabox.php
+msgid "refunded"
+msgstr ""
+
+#: admin/class-rg-order-metabox.php
+msgid "rate"
+msgstr ""
+
+#: admin/class-rg-order-metabox.php
+msgid "Guest order — COD blocking is unavailable (requires a registered account)."
+msgstr ""
+
+#: uninstall.php
+msgid "Permission denied."
+msgstr ""
