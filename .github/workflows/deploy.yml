@@ -17,7 +17,7 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ok.medkorse.in
-          username: devv@ok.medkorse.in
+          username: devv
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftp
           port: 21
