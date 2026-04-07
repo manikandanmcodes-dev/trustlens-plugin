@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4        # ← Updated from v3
 
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
@@ -21,7 +21,9 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftp
           port: 21
-          server-dir: wp-content/plugins/return-guard-wc/
+          server-dir: wp-content/plugins/return-guard-wc/   # ← Removed leading /
+          local-dir: ./                                      # ← Explicit local path
+          dangerous-clean-slate: true                        # ← Forces full re-upload
           exclude: |
             **/.git*
             **/.git*/**
