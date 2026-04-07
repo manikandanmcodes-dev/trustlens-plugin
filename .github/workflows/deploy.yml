@@ -21,7 +21,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftp
           port: 21
-          server-dir: /ok.medkorse.in/wp-content/plugins/return-guard-wc/
+          server-dir: wp-content/plugins/return-guard-wc/
           exclude: |
             **/.git*
             **/.git*/**
