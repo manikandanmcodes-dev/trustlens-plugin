@@ -31,8 +31,17 @@ define( 'RG_PLUGIN_URL',  plugin_dir_url( __FILE__ ) );
 
 // ─── Activation / Deactivation Hooks ─────────────────────────────────────────
 
-register_activation_hook( __FILE__, array( 'RG_Activator', 'activate' ) );
-register_deactivation_hook( __FILE__, array( 'RG_Deactivator', 'deactivate' ) );
+function rg_activate_plugin() {
+	require_once RG_PLUGIN_DIR . 'includes/class-rg-activator.php';
+	RG_Activator::activate();
+}
+register_activation_hook( __FILE__, 'rg_activate_plugin' );
+
+function rg_deactivate_plugin() {
+	require_once RG_PLUGIN_DIR . 'includes/class-rg-deactivator.php';
+	RG_Deactivator::deactivate();
+}
+register_deactivation_hook( __FILE__, 'rg_deactivate_plugin' );
 
 // ─── Requirement Checks ───────────────────────────────────────────────────────
 
